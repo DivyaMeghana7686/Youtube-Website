@@ -3,7 +3,7 @@
 # dependencies
 /node_modules
 
-.constants.js
+constants.js
 /.pnp
 .pnp.js
 

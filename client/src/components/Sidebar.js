@@ -8,40 +8,40 @@ const Sidebar= ()=>{
     if(!isMenuOpen) return null;
     
     return (
-        <div className="p-3 shadow-lg w-48 bg-black text-white h-full">
-        <div className="font-bold ">
+        <div className="p-4 shadow-lg w-60 bg-black text-white h-full ">
+        <div className="p-4 space-y-2.5">
             <h1>Home</h1>
             <h1>Shorts</h1>
             <h1>Subscriptions</h1>
             <h1>YouTube Music</h1>
         </div>
         <hr></hr>
-        <div>
+        <div className="p-4 space-y-2.5">
             <h1 className="font-bold">You</h1>
-                <ol>
-                    <li>Your Channel</li>
-                    <li>History</li>
-                    <li>Playlists</li>
-                    <li>Your Videos</li>
-                    <li>Watch Later</li>
-                    <li>Liked Vidoes</li>
-                    <li>Downloads</li>
-                </ol>
+            <ol className="space-y-2.5">
+                <li>Your Channel</li>
+                <li>History</li>
+                <li>Playlists</li>
+                <li>Your Videos</li>
+                <li>Watch Later</li>
+                <li>Liked Vidoes</li>
+                <li>Downloads</li>
+            </ol>
 
         </div>
         <hr></hr>
-        <div>
+        <div className="p-4 space-y-2.5">
             <h1 className="font-bold">Subscriptions</h1>
-                <ul>
+                <ul className="space-y-2.5">
                     <li>Music</li>
                     <li>Sports</li>
                     <li>Gaming</li>
                 </ul>
         </div>
         <hr></hr>
-        <div>
+        <div className="p-4 space-y-2.5">
             <h1 className="font-bold">Explore</h1>
-                <ul>
+                <ul className="space-y-2.5">
                     <li>Trending</li>
                     <li>Music</li>
                     <li>Movies</li>
